@@ -22,7 +22,7 @@ The function gets the biggest and the smallest elements of the array arr.iter().
 The function gets the maximum height of the array and counts how many elements have the value equal to this maximum, returning this count as i32.
 # Time Conversion
 The function splits the String in 3 Strings: perion, hour and minute_and_second. It uses the period in order to manipulate the hour treating the special cases of 12. In the end the function returns a String formatted accordingly.
-#Medium Problems
+# Medium Problems
 # Extra Long Factorials
 The function uses a vector of digits starting with 1. It does the multiplications with each number from 2 to n using the digits, adding the digits of the carry resulted from the multiplication to the array after each step.
 # Organizing Containers of Balls
