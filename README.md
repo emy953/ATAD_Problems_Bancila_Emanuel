@@ -30,5 +30,5 @@ After analyzing the problem, we can see that the requested swaps are Possible on
 The function calculates the sum on rows as the total number of balls of each type and the sum on columns as the capacity of each container. It checks for each type of ball that the condition is true, if it is not it returns Impossible.
 # Encryption
 The function calculates the sqrt value of the length and extracts the floor and ceiling values using the floor() and ceil() functions. Then, it splits the string in rows of length equal to the ceiling value. After this, it creates the result by adding the elements of each column in order, separated by spaces. In the end it removes the last space added and returns the result String.
-#The Time In Words
+# The Time In Words
 The function uses a string of words in order, from 0 to 30 (num_to_word[15] = "fifteen"). It then returns a formatted string according to the special cases for minutes. 
