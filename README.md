@@ -26,7 +26,7 @@ The function splits the String in 3 Strings: perion, hour and minute_and_second.
 # Extra Long Factorials
 The function uses a vector of digits starting with 1. It does the multiplications with each number from 2 to n using the digits, adding the digits of the carry resulted from the multiplication to the array after each step.
 # Organizing Containers of Balls
-After analyzing the problem, we can see that the requested swaps are Possible only if, for each type of ball, there exists a container with the capacity equal to the total number of balls of that type. So, if there are 4 red balls and there is no container with the size equal to 4, the solvinf is Impossible.
+After analyzing the problem, we can see that the requested swaps are Possible only if, for each type of ball, there exists a container with the capacity equal to the total number of balls of that type. So, if there are 4 red balls and there is no container with the size equal to 4, the solving is Impossible.
 The function calculates the sum on rows as the total number of balls of each type and the sum on columns as the capacity of each container. It checks for each type of ball that the condition is true, if it is not it returns Impossible.
 # Encryption
 The function calculates the sqrt value of the length and extracts the floor and ceiling values using the floor() and ceil() functions. Then, it splits the string in rows of length equal to the ceiling value. After this, it creates the result by adding the elements of each column in order, separated by spaces. In the end it removes the last space added and returns the result String.
